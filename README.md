@@ -1,1 +1,1 @@
-A sinmple e-commerce API built with Django Rest Framework as a trial work
+A simple e-commerce API built with Django Rest Framework as a trial work
