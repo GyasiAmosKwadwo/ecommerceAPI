@@ -1,0 +1,26 @@
+GET http://127.0.0.1:8000/api/category/
+
+###
+
+POST http://127.0.0.1:8000/api/product/
+Content-Type: application/json
+
+ {
+    "name": "Asomade3",
+    "price": 300.0,
+    "category": 3,
+    "description": "The best of all jewelries",
+    "imageurl": "https://nicetins.com",
+    "status": true,
+    "created_by": "GyasiAmosKwadwo",
+    "date_created": "2025-08-24T23:23:41.128041Z"
+  }
+
+###
+POST http://127.0.0.1:8000/api/product/
+Content-Type: application/json
+
+{
+    "name": "Accesories",
+    "description": "Devices and gadgets"
+}
